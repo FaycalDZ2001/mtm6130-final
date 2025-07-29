@@ -1,30 +1,165 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>DZCONNECT</title>
 </head>
 <body>
+
   <header>
-    <h1>DZCONNECT</h1>
+    <img src="images/logo.png" alt="DZCONNECT logo">
     <nav>
       <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#services">Services</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Team</a></li>
+        <li><a href="#">Contact</a></li>
       </ul>
     </nav>
+    <form>
+      <input type="text" placeholder="Search">
+      <button type="submit">Search</button>
+    </form>
   </header>
-  <main>
-    <section id="home" class="banner"></section>
-    <section id="services" class="services"></section>
-    <section id="about" class="about"></section>
-    <section id="contact" class="contact"></section>
-  </main>
+
+  <section>
+    <img src="images/main-banner.jpg" alt="Main Banner">
+    <div>
+      <h1>Welcome to DZCONNECT</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a purus id sapien fermentum malesuada.</p>
+      <a href="#">Connect with us</a>
+    </div>
+  </section>
+
+  <section>
+    <img src="images/about-us.jpg" alt="About Us">
+    <div>
+      <h2>About Us</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac tortor at metus pulvinar tincidunt.</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Our Services</h2>
+
+    <article>
+      <img src="images/digital.jpg" alt="Digital Transformation">
+      <h3>Digital Transformation</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      <a href="#">Digital Plans</a>
+    </article>
+
+    <article>
+      <img src="images/marketing.jpg" alt="Marketing">
+      <h3>Marketing</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      <a href="#">Marketing Plans</a>
+    </article>
+
+    <article>
+      <img src="images/video.jpg" alt="Video Production">
+      <h3>Video Production</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      <a href="#">Video Plans</a>
+    </article>
+
+    <article>
+      <img src="images/web.jpg" alt="Web Development">
+      <h3>Web Development</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      <a href="#">Web Plans</a>
+    </article>
+
+    <article>
+      <img src="images/print.jpg" alt="Print">
+      <h3>Print</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      <a href="#">Print Plans</a>
+    </article>
+  </section>
+
+  <section>
+    <img src="images/vision.jpg" alt="Vision">
+    <div>
+      <h2>Our Vision</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      <a href="#">Learn More</a>
+    </div>
+  </section>
+
+  <section>
+    <h2>Our Team</h2>
+
+    <article>
+      <img src="images/bob.jpg" alt="Bob Rite">
+      <h3>Bob Rite</h3>
+      <p>CFO and Co-owner</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </article>
+
+    <article>
+      <img src="images/john.jpg" alt="John Doe">
+      <h3>John Doe</h3>
+      <p>CEO and Co-owner</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </article>
+  </section>
+
+  <section>
+    <h2>Contact Us</h2>
+
+    <div>
+      <h3>Send us a message</h3>
+      <form>
+        <label for="fullname">Full Name</label>
+        <input type="text" id="fullname" name="fullname">
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email">
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message"></textarea>
+
+        <button type="submit">Send</button>
+      </form>
+    </div>
+
+    <div>
+      <h3>Location</h3>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3206.374113112123!2d4.062754376425796!3d36.52096778338901!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x128c350007f08271%3A0x9d665eb64c83a0f5!2sBelkaTech!5e0!3m2!1sen!2sca!4v1753760383122!5m2!1sen!2sca"
+        width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+    </div>
+  </section>
+
+  <section>
+    <h3>Hours of operation</h3>
+    <table>
+      <thead>
+        <tr>
+          <th>Days</th>
+          <th>Hours</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Monday - Friday</td>
+          <td>9 AM - 6 PM</td>
+        </tr>
+        <tr>
+          <td>Saturday - Sunday</td>
+          <td>Closed</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
   <footer>
-    <p>&copy; 2025 DZCONNECT</p>
+    <p>&copy; Copyright DZCONNECT, 2025</p>
+    <p>All images are taken from Unsplash</p>
   </footer>
+
 </body>
 </html>
